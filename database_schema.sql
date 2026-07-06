@@ -22,5 +22,4 @@ CREATE TABLE tickets(
     description TEXT,
     priority VARCHAR(50),
     category VARCHAR(100),
-    status VARCHAR(50)
-);
+    status VARCHAR(50));
