@@ -256,5 +256,4 @@ def agent_tickets(
 ):
 
     return db.query(Ticket).filter(
-        Ticket.assigned_agent_id == agent_id
-    ).all()
+        Ticket.assigned_agent_id == agent_id ).all()
