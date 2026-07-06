@@ -38,5 +38,4 @@ class Ticket(Base):
 
     status = Column(
         String,
-        default="Open"
-    )
+        default="Open" )
