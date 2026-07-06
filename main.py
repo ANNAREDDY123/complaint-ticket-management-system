@@ -41,5 +41,4 @@ def home():
     logger.info("Application Started Successfully")
 
     return {
-        "message": "Complaint & Ticket Management System"
-    }
+        "message": "Complaint & Ticket Management System"}
